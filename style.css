@@ -1,0 +1,95 @@
+*
+{
+    padding: 0;
+}
+body
+{
+    background-color:grey;
+    background-image: url("C:/Users/Yeshwanth/Downloads/cool-geometric-triangular-hallway-3d-rendering.jpg");
+}
+#title
+{
+    height: 50px;
+    background-color:aquamarine;
+    text-align: center;
+    align-content: center;
+    font-size:35px;
+}
+.main
+{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding-top:40px;
+}
+.box
+{
+    height:42vmin;
+    width:42vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.3vmin;
+}
+.boxes{
+    height:13vmin;
+    width:13vmin;
+    border-radius: 15px;
+    border:none ;
+    background-color: white;
+    font-size: 50px;
+    color: black;
+
+}
+.res
+{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#result
+{
+    height:50px;
+    width:350px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    font-size:25px;
+
+}
+
+.Reset
+{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Reset
+{
+    height:50px;
+    width:150px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    font-size:25px;
+    border:none;
+
+}
+
+
+.boxes:hover
+{
+    cursor: pointer;
+}
+#Reset:hover
+{
+    cursor: pointer;
+}
+
